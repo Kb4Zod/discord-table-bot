@@ -67,3 +67,7 @@ npm test
   unmutes them the next time they join any other voice channel. Until then, they stay muted.
 - The bot can mute people but can't unmute someone who muted themselves.
 - Only server voice channels, not DMs/group calls. Up to 10 player buttons.
+
+## License
+
+MIT, see [LICENSE](LICENSE).

@@ -2,6 +2,7 @@
   "name": "discord-table-bot",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "description": "Speaker control panel for a Discord voice/video D&D table",
   "type": "module",
   "scripts": {

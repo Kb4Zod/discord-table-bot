@@ -1,9 +1,20 @@
 # discord-table-bot
 
 Speaker control for a Discord voice/video D&D table (1 DM + up to 6 players).
-The bot posts a button panel in the voice channel's chat. Players raise hands;
-the DM passes the floor around in initiative order and mutes people with one
+
+- **Status:** active
+- **Stack:** Node.js 20.6+, discord.js v14
+- **Run it:** `npm start` (one-time setup below)
+- **Repo:** github.com/Kb4Zod/discord-table-bot (public)
+
+## Why it exists
+On a 7-person Discord video call, crosstalk swamps the table. The bot posts
+a button panel in the voice channel's chat. Players raise hands; the DM
+passes the floor around in initiative order and mutes people with one
 click. Muting is done with Discord **server mute**.
+
+## Where it's at
+First pass built 2026-10-02 and working; see Known limits below.
 
 Origin: [NOTES.md](NOTES.md) (captured in RawNotes 2026-10-02)
 

@@ -1,7 +1,6 @@
 # Discord speaker-control side panel
 
 - date: 2026-10-02
-- status: promoted       <!-- open | cooking | promoted | dead -->
 - type: question      <!-- question | research | issue -->
 
 ## What's the question / problem?
@@ -72,13 +71,12 @@ supported ways to do it:
 ### First pass built (2026-10-02)
 - Language: JavaScript / discord.js v14 (Python had no real advantage here;
   JS also lines up with a future Activity/web panel).
-- Code: this repo (README there has setup steps).
+- Code: this repo (README has setup steps).
 - Commands: `/table start`, `/table order players: @a @b`, `/table end`.
 - Starts in Open table mode; "Take hand" borrows the floor and Next returns
   to whoever's turn it was. 7 unit tests on the state logic pass.
 - Not yet tested against a live Discord server.
 
-## Outcome
+## Plan
 
-Possible: yes, via a bot with a button panel (server mute). First pass built in
-active/discord-table-bot (GitHub: Kb4Zod/discord-table-bot). Next: live test with the group.
+- definition of done: The GM can activate a conversation override that lets every player know that the conversation should be stopped and focus should be provided to the selected player. This allows the GM to control the conversation so that crosstalk is reduced.
